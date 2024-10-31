@@ -35,6 +35,4 @@ This code has been developed and tested on a Windows 11 machine with the followi
 
 To run this code, you will need:
 - Python >= 3.11
-
-- Required packages:
-
+- Required packages (listed in `requirements.txt`)
