@@ -1,15 +1,17 @@
 # Master Thesis Code Repository
 
-This repository contains the code used in my Master's thesis Detecting the influence of opinion leaders in limited social networks. This codebase provides a full opininon detection pipline, with all files designed to execute sequentially. 
-
-To replicate my findings the trained model as well as support files are provided in the Data Folder
+This repository contains the code used in my Master's thesis on detecting the influence of opinion leaders in limited social networks. This codebase provides a full opininon detection pipline, with all files necessary to replicate my findings. 
 
 ## Project Structure
 
 The repository is organized as follows:
 
-- **Pipeline**: Each file in the directory should be run in sequence for the pipeline to function correctly. Follow the order provided in the Notebooks.
-- **Data Folder**: Includes all essential files to reproduce my results. All files in this folder should be placed directly in the project directory for the code to work without path modifications.
+- **Pipeline**: Each jupyter-notebook in the directory should be run in the provided sequence for the pipeline to function correctly. 
+- **Data**: Contains the trained model files as well as all supporting files created during the pipeline processing. All files in this folder should be placed directly in the project directory for the code to work without path modifications.
+- **Testing** 🚧: Contains the Jupyter notebooks used to test the hypotheses presented in the Master's thesis. *(TO DO)*
+- 
+The original dataset used to execute the pipeline in the provided example is from:
+Dornel, B. (2021). *New York Times Articles & Comments (2020), Version 1* [Data set]. Kaggle. Retrieved February 29, 2024, from [https://www.kaggle.com/datasets/benjaminawd/new-york-times-articles-comments-2020](https://www.kaggle.com/datasets/benjaminawd/new-york-times-articles-comments-2020)
 
 ## Execution Guide
 
