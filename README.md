@@ -7,7 +7,7 @@ This repository contains the code used in my Master's thesis on detecting the in
 The repository is organized as follows:
 
 - **Pipeline**: Each jupyter-notebook in the directory should be run in the provided sequence for the pipeline to function correctly. 
-- **Data**: Contains the trained model files as well as all supporting files created during the pipeline processing. All files in this folder should be placed directly in the project directory for the code to work without path modifications.
+- **Data** 🚧: Contains the trained model files as well as all supporting files created during the pipeline processing. All files in this folder should be placed directly in the project directory for the code to work without path modifications. *(TO DO)*
 - **Testing** 🚧: Contains the Jupyter notebooks used to test the hypotheses presented in the Master's thesis. *(TO DO)*
 - 
 The original dataset used to execute the pipeline in the provided example is from:
@@ -50,6 +50,8 @@ This code has been developed and tested on a Windows 11 machine with the followi
 - **RAM**: 32 GB
 - **GPU**: NVIDIA RTX 3060 with 12 GB VRAM
 - **Storage**: ~100GB of free space (inkl. Memory paging)
+
+In case of memmory errors it is pissible to reduce the batch-size in Notebook 3 while calculating the pairwise_cosine similarity.
 
 To run this code, you will need:
 - Python >= 3.11
