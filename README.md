@@ -2,7 +2,7 @@
 
 This repository contains the code used in my Master's thesis Detecting the influence of opinion leaders in limited social networks. This codebase provides a full opininon detection pipline, with all files designed to execute sequentially. 
 
-To replicate my findings the trained model as well as support files are provided in the **Data** Folder
+To replicate my findings the trained model as well as support files are provided in the Data Folder
 
 ## Project Structure
 
