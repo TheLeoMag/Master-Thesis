@@ -25,6 +25,22 @@ To run the pipeline, follow these steps in sequence:
 
 Run each notebook in the order provided for the pipeline to execute correctly.
 
+## Processing Custom Data
+
+If you wish to process your own dataset through this pipeline, the input dataset containing the comments should be structured as follows:
+
+| Column Label     | Description                                                        |
+|------------------|--------------------------------------------------------------------|
+| **commentID**    | Unique ID of the comment                                           |
+| **userID**       | Unique ID of the user who made the comment                         |
+| **parentID**     | Unique ID of the parent comment (NA if the comment is not a reply) |
+| **articleID**    | Unique ID of the article where the comment was posted              |
+| **createDate**   | Date and time when the comment was created*                        |
+| **approveDate**  | Date and time when the comment was visible to others*              |
+| **commentBody**  | Text content of the comment                                        |
+
+*If only one of the two dates is available, use it for both the createDate and approveDate columns.
+
 ## Requirements
 
 This code has been developed and tested on a Windows 11 machine with the following specifications:
