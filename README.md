@@ -9,7 +9,7 @@ The dataset used for this analysis, including the cleaned input data, trained Do
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.14020130.svg)](https://doi.org/10.5281/zenodo.14020130)
  
 The original dataset used to execute the pipeline in the provided example is from:
-Dornel, B. (2021). *New York Times Articles & Comments (2020), Version 1* [Data set]. Kaggle. Retrieved February 29, 2024, from [https://www.kaggle.com/datasets/benjaminawd/new-york-times-articles-comments-2020](https://www.kaggle.com/datasets/benjaminawd/new-york-times-articles-comments-2020)
+Dornel, B. (2021). *New York Times Articles & Comments (2020), Version 1* [Data set]. Kaggle. Retrieved February 29, 2024, [https://www.kaggle.com/datasets/benjaminawd/new-york-times-articles-comments-2020](https://www.kaggle.com/datasets/benjaminawd/new-york-times-articles-comments-2020)
 
 ## Execution Guide
 
