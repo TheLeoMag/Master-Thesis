@@ -1,6 +1,6 @@
 # Master Thesis Code Repository
 
-This repository contains the code used in my Master's thesis on detecting the influence of opinion leaders in limited social networks. This codebase provides a full opininon detection pipline, with all files necessary to replicate my findings. 
+This repository contains the code used in the Master's thesis on detecting the influence of opinion leaders in limited social networks. This codebase provides a full opininon detection pipline. 
 
 ## Data to Reproduce Results
 
