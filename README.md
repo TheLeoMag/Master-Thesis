@@ -17,7 +17,7 @@ For a explanation of the methods and findings, please refer to the Master's thes
 
 ## Data for Reproducing Results
 
-The data used for this analysis, including the cleaned input data, trained Doc2Vec models, and intermediate and final outputs, are available for download on Zenodo.
+All data used for this analysis, including the cleaned input data, trained Doc2Vec models, and intermediate and final outputs, are available for download on Zenodo.
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.14020130.svg)](https://doi.org/10.5281/zenodo.14020130)
 
