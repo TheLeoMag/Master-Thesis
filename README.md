@@ -2,12 +2,11 @@
 
 This repository contains the code used in my Master's thesis on detecting the influence of opinion leaders in limited social networks. This codebase provides a full opininon detection pipline, with all files necessary to replicate my findings. 
 
-## Dataset
+## Data to Reproduce Results
 
-The dataset used for this analysis, including intermediate and final outputs, is available for download on Zenodo. This includes the cleaned comments, trained Doc2Vec model, etc. 
-You can access the dataset here:
+The dataset used for this analysis, including the cleaned input data, trained Doc2Vec model intermediate and final outputs, is available for download on Zenodo. 
 
-[![DOI](https://zenodo.org/badge/DOI/ 10.5281/zenodo.14020130.svg)](https://doi.org/10.5281/zenodo.14020130)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.14020130.svg)](https://doi.org/10.5281/zenodo.14020130)
  
 The original dataset used to execute the pipeline in the provided example is from:
 Dornel, B. (2021). *New York Times Articles & Comments (2020), Version 1* [Data set]. Kaggle. Retrieved February 29, 2024, from [https://www.kaggle.com/datasets/benjaminawd/new-york-times-articles-comments-2020](https://www.kaggle.com/datasets/benjaminawd/new-york-times-articles-comments-2020)
