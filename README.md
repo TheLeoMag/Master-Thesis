@@ -49,7 +49,7 @@ This code has been developed and tested on a Windows 11 machine with the followi
 - **GPU**: NVIDIA RTX 3060 with 12 GB VRAM
 - **Storage**: ~100GB of free space (inkl. Memory paging)
 
-In case of memmory errors it is pissible to reduce the batch-size in Notebook 3 while calculating the pairwise_cosine similarity.
+In case of memory errors it is possible to reduce the batch-size in Notebook 3 while calculating the pairwise cosine similarity.
 
 To run this code, you will need:
 - Python >= 3.11
