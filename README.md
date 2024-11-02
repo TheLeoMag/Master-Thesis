@@ -13,7 +13,7 @@ This repository contains the code developed for the Master's thesis project on d
 
 ## 🚧Master's Thesis Document🚧
 
-For a explanation of the methods and findings, please refer to the Master's thesis: [Thesis PDF](./path/to/your-thesis.pdf). *(Note: Link to be updated once the thesis is finalized)*
+For a explanation of the methods and findings, please refer to the Master's thesis: [Thesis PDF](./path/to/your-thesis.pdf). 
 
 ## Data for Reproducing Results
 
@@ -31,6 +31,15 @@ Schabus, D., Skowron, M., & Trapp, M. (2017, August). One million posts: A data 
 
 The pipeline consists of seven individual notebooks located in the `Pipeline` folder, designed to be executed in sequence. Each notebook produces outputs that are used as inputs for the subsequent notebooks.
 
+| Step | Notebook              | Input                                   | Output                              |
+|------|-------------------------------------------------------|----------------------------------------------|------------------------------------------|
+| 1    | [**Data Cleaning**](./Pipeline/0_Data_exploration_Comments.ipynb) | Raw comments dataset                         | Cleaned comments          |
+| 2    | [**Sentiment Analysis**](./Pipeline/1_Sentiment_Orientation.ipynb)       | Cleaned comments                             | Comment Sentiments              |
+| 3    | [**Embeddings Calculation**](./Pipeline/2_Comment_embeddings.ipynb)             | Cleaned comments                   | Comment embeddings         |
+| 4    | [**Constructing Links**](./Pipeline/3_Constructing_link_structure.ipynb) | Comment embeddings                 | Explicit and implicit comment links      |
+| 5    | [**Network Modeling**](./Pipeline/4_Network_Modeling.ipynb)                 | Comment links and Comment Sentiments                                |  Opinion Rank Scores                  |
+| 6    | [**User Vectors**](./Pipeline/5_User_Vectors.ipynb)                         | Opinion Rank Scores                                | User Vercors                 |
+| 7    | [**Clustering**](./Pipeline/6_Clustering.ipynb)                             | User Vectors                                | Clustering results     |
 
 ## Using Custom Data
 
