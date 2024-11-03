@@ -43,10 +43,10 @@ The pipeline consists of seven individual notebooks located in the `Pipeline` fo
 | 1    | [**Data Cleaning**](./Pipeline/0_Data_exploration_Comments.ipynb) | Raw comments dataset                         | Cleaned comments          |
 | 2    | [**Sentiment Analysis**](./Pipeline/1_Sentiment_Orientation.ipynb)       | Cleaned comments                             | Comment Sentiments              |
 | 3    | [**Embeddings Calculation**](./Pipeline/2_Comment_embeddings.ipynb)             | Cleaned comments                   | Comment embeddings         |
-| 4    | [**Constructing Links**](./Pipeline/3_Constructing_link_structure.ipynb) | Comment embeddings                 | Explicit and implicit comment links      |
+| 4    | [**Constructing Links**](./Pipeline/3_Constructing_link_stucture.ipynb) | Comment embeddings                 | Explicit and implicit comment links      |
 | 5    | [**Network Modeling**](./Pipeline/4_Network_Modeling.ipynb)                 | Comment links and Comment Sentiments                                |  Opinion Rank Scores                  |
 | 6    | [**User Vectors**](./Pipeline/5_User_Vectors.ipynb)                         | Opinion Rank Scores                                | User Vercors                 |
-| 7    | [**Clustering**](./Pipeline/6_Clustering.ipynb)                             | User Vectors                                | Clustering results     |
+| 7    | [**Clustering**](./Pipeline/6_Clustering.ipynb.ipynb)                             | User Vectors                                | Clustering results     |
 
 ## Using Custom Data
 
