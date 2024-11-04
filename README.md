@@ -11,7 +11,7 @@ This repository contains the code developed for the Master's thesis project on d
 6. [Installation](#installation)
 
 
-## 🚧Master's Thesis Document🚧
+## 🚧 Thesis 🚧
 
 For a explanation of the methods and findings, please refer to the Master's thesis: [Thesis PDF](./Masters-Thesis.pdf). 
 
