@@ -13,11 +13,11 @@ This repository contains the code developed for the Master's thesis project on d
 
 ## 🚧 Thesis 🚧
 
-For a explanation of the methods and findings, please refer to the Master's thesis: [Thesis PDF](./Masters-Thesis.pdf). 
+For a explanation of the methods and findings, please refer to the master's thesis: [Thesis PDF](./Masters-Thesis.pdf). 
 
 Abstract:  
 
-This thesis examines the role of influential users (opinion leaders) in shaping the discussions within online newspaper comment forums. The work is divided into two parts. Initially, pipeline is developed for identifying influential users within comment forums. Subsequently, the impact of these identified users on their peers is analysed using this OL pipeline. Building on the opinion leader detection algorithm proposed by Cheng et al., this work recreates their algorithm using modern NLP techniques, as well as extending it to enable the identification of opinion leaders across the entire platform. The analysis is based on two datasets from The New York Times and Der Standard. Users of these platforms were categorized as either opinion leaders or normal users. 
+This thesis examines the role of influential users (opinion leaders) in shaping the discussions within online newspaper comment forums. The work is divided into two parts. Initially, a pipeline is developed for identifying influential users within comment forums. Subsequently, the impact of these identified users on their peers is analysed using this OL pipeline. Building on the opinion leader detection algorithm proposed by Cheng et al., this work recreates their algorithm using modern NLP techniques, as well as extending it to enable the identification of opinion leaders across an entire platform. The analysis is based on two datasets from The New York Times and Der Standard. Users of these platforms were categorized as either opinion leaders or normal users. 
 
 The results indicate that opinion leaders across both platforms are highly active participants and tend to attract other users. Articles with OL contributions see significantly more unique visitors, higher average comment counts, and increased engagement time. While no significant difference in content toxicity was detectable between the two user groups, it is evident that the behaviour of this influential group has some impact on other users. 
 
